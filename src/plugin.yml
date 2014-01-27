@@ -1,0 +1,19 @@
+## YAML Template.
+---
+name: HelloBukkit
+main: com.lottspot.hellobukkit.Greeting
+version: 0.1
+authors: 
+    - James Lott
+description: Dummy code to test the bukkit API
+commands: 
+    hellobukkit:
+        description: Greet the world.
+        usage: /hellobukkit 
+        permission: hellobukkit.greet
+        permission-message: You shut your mouth, user.
+ 
+permissions:
+    hellobukkit.greet:
+        description: Use of /hellobukkit command
+        default: true
